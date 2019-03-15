@@ -24,13 +24,16 @@ namespace BankAccountNS
             m_customerName = customerName;
             m_balance = balance;
         }
+        public string CustomerName
+        {
+            get { return m_customerName; }
+        }
 
-        
+        public double Balance
+        {
+            get { return m_balance; }
+        }
 
-        
-
-        
-        
     }
 }
 
