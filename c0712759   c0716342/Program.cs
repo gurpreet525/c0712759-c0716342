@@ -1,18 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 //Gurpreet Gurpreet c0712759
 //Arshdeep Singh c0716342
 
 
-namespace c0712759___c0716342
+namespace BankAccountNS
 {
-    class Program
+    
+    public class BankAccount
     {
-        static void Main(string[] args)
+        private string m_customerName;
+
+        private double m_balance;
+
+        private bool m_frozen = false;
+
+        private BankAccount()
         {
         }
+
+        public BankAccount(string customerName, double balance)
+        {
+            m_customerName = customerName;
+            m_balance = balance;
+        }
+
+        
+
+        
+
+        
+        
     }
 }
+
